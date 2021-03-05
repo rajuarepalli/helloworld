@@ -48,7 +48,7 @@ pipeline {
 
         stage ('deploy') {
             steps {
-                sh 'echo "ansible -i hosts_file playbook.yml"'
+                sh 'echo "ansible -i hosts_file playbook.yml --extra-vars build_version=${build_version}"'
             }
         }
     }
