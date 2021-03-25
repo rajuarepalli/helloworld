@@ -33,6 +33,8 @@
         <url>http://3.21.159.154:8081/artifactory/test</url>
     </snapshotRepository>
   </distributionManagement>
+  
+  
   <build>
     <plugins>
       <plugin>
